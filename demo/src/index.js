@@ -1,12 +1,15 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import { Foo, Bar } from 'react-tinted'
+
 import './index.scss'
-import App from './App'
+// import App from './App'
 import * as serviceWorker from './serviceWorker'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Foo />
+    <Bar />
   </React.StrictMode>,
   document.getElementById('root')
 )

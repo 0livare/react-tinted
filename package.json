@@ -12,7 +12,9 @@
     "demo"
   ],
   "scripts": {
-    "build": "cd lib && yarn build"
+    "build": "cd lib && yarn build",
+    "watch": "cd lib && yarn watch",
+    "start": "cd demo && yarn start"
   },
   "devDependencies": {
     "lerna": "^3.22.1",
