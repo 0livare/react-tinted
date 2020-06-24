@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { Foo, Bar } from 'react-tinted'
+import { Foo } from 'react-tinted'
 
 import './index.scss'
 // import App from './App'
@@ -9,7 +9,6 @@ import * as serviceWorker from './serviceWorker'
 ReactDOM.render(
   <React.StrictMode>
     <Foo />
-    <Bar />
   </React.StrictMode>,
   document.getElementById('root')
 )
