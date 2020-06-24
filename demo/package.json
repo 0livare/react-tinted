@@ -11,7 +11,8 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
-    "react-tinted": "0.0.0"
+    "react-tinted": "0.0.0",
+    "sass": "^1.26.9"
   },
   "scripts": {
     "start": "react-scripts start",
