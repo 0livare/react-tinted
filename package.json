@@ -1,0 +1,21 @@
+{
+  "name": "react-tinted",
+  "version": "0.0.0",
+  "description": "A react wrapper for the Tinted color wheel",
+  "main": "index.js",
+  "repository": "https://github.com/zposten/react-tinted",
+  "author": "Zach Posten <zach@posten.io>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "lib",
+    "demo"
+  ],
+  "scripts": {
+    "build": "cd lib && yarn build"
+  },
+  "devDependencies": {
+    "lerna": "^3.22.1",
+    "unorepo": "^0.1.0"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "react-tinted",
+  "version": "0.0.0",
+  "description": "A react wrapper for the Tinted color wheel",
+  "main": "dist/index.js",
+  "repository": "https://github.com/zposten/react-tinted",
+  "author": "Zach Posten <zach@posten.io>",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup --config"
+  },
+  "dependencies": {
+    "tinted": "^0.0.3"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.3",
+    "@babel/core": "^7.10.3",
+    "@babel/plugin-transform-runtime": "^7.10.3",
+    "@babel/preset-env": "^7.10.3",
+    "@babel/preset-react": "^7.10.1",
+    "@rollup/plugin-babel": "^5.0.4",
+    "@rollup/plugin-node-resolve": "^8.1.0",
+    "react": "^16.13.1",
+    "rollup": "^2.18.0"
+  }
+}
