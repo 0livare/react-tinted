@@ -9,7 +9,8 @@
   "private": true,
   "workspaces": [
     "lib",
-    "demo"
+    "demo",
+    ".yalc/*"
   ],
   "scripts": {
     "build": "cd lib && yarn build",
