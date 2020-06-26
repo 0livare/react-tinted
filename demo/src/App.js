@@ -1,8 +1,7 @@
 import React, {useState} from 'react'
-import {TintedWheel} from 'react-tinted'
+import {TintedWheel, TintedPalette, colorModes} from 'react-tinted'
 
 import './App.scss'
-import {TintedPalette, colorModes} from 'react-tinted'
 
 function App() {
   const [mode, setMode] = useState(colorModes.ANALOGOUS)
@@ -14,6 +13,7 @@ function App() {
       </TintedWheel>
 
       <select
+        value={mode}
         onChange={e => setMode(e.target.value)}
         className='my-mode-picker'
       >
