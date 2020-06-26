@@ -1,24 +1,26 @@
-import React from 'react'
-import logo from './logo.svg'
+import React, {useState} from 'react'
+import {TintedWheel} from 'react-tinted'
+
 import './App.scss'
+import {TintedPalette, colorModes} from 'react-tinted'
 
 function App() {
+  const [mode, setMode] = useState(colorModes.ANALOGOUS)
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='my-color-wheel tinted--dark'>
+      <TintedWheel colorCount={5} mode={mode}>
+        <TintedPalette />
+      </TintedWheel>
+
+      <select
+        onChange={e => setMode(e.target.value)}
+        className='my-mode-picker'
+      >
+        {Object.values(colorModes).map(mode => (
+          <option value={mode}>{mode}</option>
+        ))}
+      </select>
     </div>
   )
 }
