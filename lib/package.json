@@ -6,6 +6,16 @@
   "repository": "https://github.com/zposten/react-tinted",
   "author": "Zach Posten <zach@posten.io>",
   "license": "MIT",
+  "keywords": [
+    "d3",
+    "color",
+    "color wheel",
+    "color-wheel",
+    "kuler",
+    "react",
+    "color harmony",
+    "color harmony wheel"
+  ],
   "scripts": {
     "build": "rollup --config",
     "watch": "rollup --config --watch"
