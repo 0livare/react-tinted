@@ -18,7 +18,9 @@ function App() {
         className='my-mode-picker'
       >
         {Object.values(colorModes).map(mode => (
-          <option value={mode}>{mode}</option>
+          <option key={mode} value={mode}>
+            {mode}
+          </option>
         ))}
       </select>
     </div>

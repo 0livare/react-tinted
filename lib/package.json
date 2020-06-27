@@ -1,11 +1,21 @@
 {
   "name": "react-tinted",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A react wrapper for the Tinted color wheel",
   "main": "dist/index.js",
   "repository": "https://github.com/zposten/react-tinted",
   "author": "Zach Posten <zach@posten.io>",
   "license": "MIT",
+  "keywords": [
+    "d3",
+    "color",
+    "color wheel",
+    "color-wheel",
+    "kuler",
+    "react",
+    "color harmony",
+    "color harmony wheel"
+  ],
   "scripts": {
     "build": "rollup --config",
     "watch": "rollup --config --watch"
@@ -13,7 +23,7 @@
   "dependencies": {
     "@babel/runtime": "^7.10.3",
     "classnames": ">=2.0.0",
-    "tinted": "^0.0.4"
+    "tinted": "^0.0.5"
   },
   "peerDependencies": {
     "react": ">=16.8.3"
