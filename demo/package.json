@@ -1,6 +1,6 @@
 {
   "name": "react-tinted-demo",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "Zach Posten <zach@posten.io>",
   "license": "MIT",
   "private": true,
@@ -11,7 +11,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
-    "react-tinted": "^0.0.2",
+    "react-tinted": "^0.0.3",
     "sass": "^1.26.9"
   },
   "scripts": {

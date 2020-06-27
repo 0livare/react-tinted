@@ -12851,10 +12851,10 @@ timsort@^0.3.0:
   resolved "https://registry.yarnpkg.com/timsort/-/timsort-0.3.0.tgz#405411a8e7e6339fe64db9a234de11dc31e02bd4"
   integrity sha1-QFQRqOfmM5/mTbmiNN4R3DHgK9Q=
 
-tinted@^0.0.5:
-  version "0.0.5"
-  resolved "https://registry.yarnpkg.com/tinted/-/tinted-0.0.5.tgz#2c7fed134e20a554b3597593f2cc27131980cf53"
-  integrity sha512-K8cAAsAzOpmzBd4yaUetk0FU+t9G0GaKd9cm0hZb98zT11ARnDVDWDZNc1GVhKTngeT1cRV3vOqYyMg/uncS8w==
+tinted@^0.0.6:
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/tinted/-/tinted-0.0.6.tgz#29c6d4861f0bcb78eb237f6da06479e9b26bd864"
+  integrity sha512-xiV3lDjL2gufDyW1wfAHKIESRdpd5QbM0q+eW9StYvWRQ8sMIj/Ml/saQLiP5IpmCjcdh8qhoNp9BRQZordxdg==
   dependencies:
     chroma-js "^2.1.0"
     d3 "^5.16.0"

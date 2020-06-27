@@ -75,23 +75,21 @@ The color harmony wheel for the user to make a selection of colors.
 
 #### Props
 
-| Name                 | Description                                                                                                              |
-| -------------------- | ------------------------------------------------------------------------------------------------------------------------ |
-| `children`           | Color wheel "plugins" like the `TintedPalette`                                                                           |
-| `className`          | A class name to add to the root element                                                                                  |
-| `colorCount`         | The number of colors to use in the color harmony                                                                         |
-| `initRoot`           | The color that should initially be used to select other harmony colors                                                   |
-| `customColors`       | Rather than specify a root color and a color count, you can pass an array of color-like objects and strings              |
-| `mode`               | The color harmony mode. Determines how `initRoot` is used to find other colors                                           |
-| `colorWheelImage`    | A URI to a color HSV color wheel image to use                                                                            |
-| `onColorsChanged`    | Callback invoked when the number of colors available changes                                                             |
-| `onMarkersUpdated`   | Callback invoked when the user manipulates the color markers                                                             |
-| `radius`             | The radius of the wheel in SVG coordinate units                                                                          |
-| `markerWidth`        | The diameter of the markers used to select colors on the wheel in SVG coordinate units                                   |
-| `markerOutlineWidth` | The width of the outline of the color marker in SVG coordinate units                                                     |
-| `margin`             | The distance between the border of the `<svg>` and the circle of the wheel in SVG coordinate units                       |
-| `initMode`           | The initial mode the color wheel is in                                                                                   |
-| `baseClassName`      | The prefix for the class names for all generated elements. Overriding this will cause all provided CSS to no longer work |
+| Name                 | Type                                            | Description                                                                                                                                                       |
+| -------------------- | ----------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `children`           | `React.Children`                                | Color wheel "plugins" like the `TintedPalette`                                                                                                                    |
+| `className`          | `string`                                        | A class name to add to the root element                                                                                                                           |
+| `colorCount`         | `number`                                        | The number of colors to use in the color harmony                                                                                                                  |
+| `initRoot`           | color-like value                                | The color that should initially be used to select other harmony colors                                                                                            |
+| `customColors`       | color-like array                                | Rather than specify a root color and a color count, you can pass an array of color-like objects and strings                                                       |
+| `mode`               | `string`                                        | The color harmony mode. Determines how `initRoot` is used to find other colors                                                                                    |
+| `colorWheelImage`    | `string`                                        | A URI to a color HSV color wheel image to use                                                                                                                     |
+| `onColorsChanged`    | `(hexColorStrings, currentMode, wheel) => void` | Callback invoked when the user manipulates the color markers                                                                                                      |
+| `radius`             | `number`                                        | The radius of the wheel in SVG coordinate units                                                                                                                   |
+| `markerWidth`        | `number`                                        | The diameter of the markers used to select colors on the wheel in SVG coordinate units                                                                            |
+| `markerOutlineWidth` | `number`                                        | The width of the outline of the color marker in SVG coordinate units                                                                                              |
+| `margin`             | `number`                                        | The distance between the border of the `<svg>` and the circle of the wheel in SVG coordinate units. It is not recommended to pass this prop                       |
+| `baseClassName`      | `string`                                        | The prefix for the class names for all generated elements. Overriding this will cause all provided CSS to no longer work. It is not recommended to pass this prop |
 
 Also spreads any other props passed on the root element.
 
@@ -104,9 +102,10 @@ A palette of colors to display the user's chosen values from the `TintedWheel`. 
 
 #### Props
 
-| Name        | Description                             |
-| ----------- | --------------------------------------- |
-| `className` | A class name to add to the root element |
+| Name        | Description                                                   |
+| ----------- | ------------------------------------------------------------- |
+| `children`  | An element to be duplicated beneath each color in the palette |
+| `className` | A class name to add to the root element                       |
 
 Also spreads any other props passed on the root element.
 
