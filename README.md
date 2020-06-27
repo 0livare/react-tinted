@@ -102,9 +102,10 @@ A palette of colors to display the user's chosen values from the `TintedWheel`. 
 
 #### Props
 
-| Name        | Description                             |
-| ----------- | --------------------------------------- |
-| `className` | A class name to add to the root element |
+| Name        | Description                                                   |
+| ----------- | ------------------------------------------------------------- |
+| `children`  | An element to be duplicated beneath each color in the palette |
+| `className` | A class name to add to the root element                       |
 
 Also spreads any other props passed on the root element.
 

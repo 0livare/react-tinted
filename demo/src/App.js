@@ -15,7 +15,9 @@ function App() {
           console.log('colors', colors)
         }}
       >
-        <TintedPalette />
+        <TintedPalette>
+          <button>Add</button>
+        </TintedPalette>
       </TintedWheel>
 
       <select
