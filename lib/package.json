@@ -23,7 +23,7 @@
   "dependencies": {
     "@babel/runtime": "^7.10.3",
     "classnames": ">=2.0.0",
-    "tinted": "^0.0.5"
+    "tinted": "^0.0.6"
   },
   "peerDependencies": {
     "react": ">=16.8.3"
