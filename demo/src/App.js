@@ -8,7 +8,13 @@ function App() {
 
   return (
     <div className='my-color-wheel tinted--dark'>
-      <TintedWheel colorCount={5} mode={mode}>
+      <TintedWheel
+        colorCount={5}
+        mode={mode}
+        onColorsChanged={colors => {
+          console.log('colors', colors)
+        }}
+      >
         <TintedPalette />
       </TintedWheel>
 
