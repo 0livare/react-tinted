@@ -1,6 +1,6 @@
 {
   "name": "react-tinted",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A react wrapper for the Tinted color harmony wheel",
   "main": "dist/index.js",
   "repository": "https://github.com/zposten/react-tinted",
