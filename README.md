@@ -2,7 +2,7 @@
 
 Tinted is a color harmony wheel. It helps you choose color combinations that create pleasing contrasts and feel harmonious.
 
-[Demo](https://zposten.github.io/tinted)
+[Demo](https://0livare.github.io/tinted)
 
 ## Install
 
